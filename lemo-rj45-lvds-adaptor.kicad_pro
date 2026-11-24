@@ -548,7 +548,7 @@
       "netlist": "",
       "plot": "gerber/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "lemo-rj45-lvds-adaptor.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -683,7 +683,7 @@
         "uuid": "b91f64af-795d-4016-bf80-aafc945cd633"
       }
     ],
-    "used_designators": "#PWR1-38,C1-6,D1,J1-6,JP1-4,R1-9,TP1-3,U1-5",
+    "used_designators": "#PWR1-38,C1-6,D1,J1-6,JP1-4,R1-12,TP1-3,U1-5",
     "variants": []
   },
   "sheets": [

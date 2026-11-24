@@ -2953,6 +2953,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 48.26) (xy 138.43 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14993410-d070-4268-a07a-2d9516caab22")
+	)
+	(wire
+		(pts
 			(xy 181.61 77.47) (xy 181.61 80.01)
 		)
 		(stroke
@@ -3173,6 +3183,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 50.8) (xy 267.97 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c9bd28-d47d-4657-8ab2-b6635528c61a")
+	)
+	(wire
+		(pts
 			(xy 172.72 113.03) (xy 172.72 124.46)
 		)
 		(stroke
@@ -3320,6 +3340,16 @@
 			(type default)
 		)
 		(uuid "8cfc3aed-e32a-4096-948b-dc5490a0bb74")
+	)
+	(wire
+		(pts
+			(xy 267.97 31.75) (xy 267.97 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ecfefd8-f95d-4455-a85f-960ee08421d8")
 	)
 	(wire
 		(pts
@@ -3593,6 +3623,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 74.93) (xy 138.43 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a02eac-9b98-428c-8ee5-36411c869c02")
+	)
+	(wire
+		(pts
 			(xy 110.49 127) (xy 111.76 127)
 		)
 		(stroke
@@ -3610,6 +3650,16 @@
 			(type default)
 		)
 		(uuid "dd9e2d9c-75d8-4df7-9d18-7c577894ae94")
+	)
+	(wire
+		(pts
+			(xy 138.43 92.71) (xy 138.43 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e020b8c2-70b3-4576-b18b-cfb26fcc1fe6")
 	)
 	(wire
 		(pts
@@ -3713,6 +3763,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 30.48) (xy 138.43 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc079bb-2eb0-46a2-8049-e9bac45c957e")
+	)
+	(wire
+		(pts
 			(xy 143.51 124.46) (xy 153.67 124.46)
 		)
 		(stroke
@@ -3811,6 +3871,16 @@
 		)
 		(uuid "3fcb2b48-af3d-4f60-95cd-7a7d98364d02")
 	)
+	(label "TRG_P"
+		(at 138.43 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45c8c2bd-7115-4a88-b55c-a060d9356441")
+	)
 	(label "CLK_N"
 		(at 72.39 134.62 0)
 		(effects
@@ -3832,6 +3902,16 @@
 		(uuid "7536c3ad-e97f-4ac2-b87a-cd8d06c11b3b")
 	)
 	(label "CLK_N"
+		(at 138.43 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "768656aa-878b-4ede-bf48-06de4228fa2d")
+	)
+	(label "CLK_N"
 		(at 124.46 43.18 0)
 		(effects
 			(font
@@ -3850,6 +3930,16 @@
 			(justify left bottom)
 		)
 		(uuid "94b1ac83-44bc-47a2-ace3-0475ee9f998a")
+	)
+	(label "RST_N"
+		(at 267.97 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cc7acfd-0be8-42b4-bd31-652a25ebb452")
 	)
 	(label "RST_P"
 		(at 254 38.1 0)
@@ -3871,6 +3961,26 @@
 		)
 		(uuid "af7d0f19-46f5-47fc-9517-6a5b874ea881")
 	)
+	(label "RST_P"
+		(at 267.97 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2e6f321-5a26-4ce8-9833-dcaf2bbbf4c5")
+	)
+	(label "TRG_N"
+		(at 138.43 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8a52d58-1ae1-4315-8f0d-9701684fc339")
+	)
 	(label "TRG_N"
 		(at 124.46 86.36 0)
 		(effects
@@ -3890,6 +4000,16 @@
 			(justify left bottom)
 		)
 		(uuid "ddf7d2ec-d387-492c-93e7-f5bb140c8a97")
+	)
+	(label "CLK_P"
+		(at 138.43 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e751ed37-1b2d-4273-91d3-06b9f47e5dd5")
 	)
 	(label "TRG_P"
 		(at 124.46 81.28 0)
@@ -4296,6 +4416,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 138.43 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "1558833d-f623-425f-88fd-ba5427950601")
+		(property "Reference" "R11"
+			(at 140.97 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 140.97 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 136.652 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 138.43 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e2bd96df-36c7-4c04-a7de-c151feebe9c0")
+		)
+		(pin "1"
+			(uuid "195a7d5d-a9a6-432c-8baf-a8809a0cdc63")
+		)
+		(instances
+			(project "lemo-rj45-lvds-adaptor"
+				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface:SN65LVDS1D")
 		(at 100.33 83.82 0)
 		(unit 1)
@@ -4628,6 +4830,88 @@
 			(project "lemo-rj45-lvds-adaptor"
 				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 138.43 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "2b55bb61-5378-4658-9173-9cfb99936513")
+		(property "Reference" "R10"
+			(at 140.97 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 140.97 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 136.652 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 138.43 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c762a155-3bbd-44d3-8d41-df9e7479acf1")
+		)
+		(pin "1"
+			(uuid "221ad6bc-ea56-4561-af70-dbe82f4668ff")
+		)
+		(instances
+			(project "lemo-rj45-lvds-adaptor"
+				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8354,6 +8638,88 @@
 			(project "lemo-rj45-lvds-adaptor"
 				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 267.97 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b2c6ed4e-5e60-4d14-90a8-085253f49996")
+		(property "Reference" "R12"
+			(at 270.51 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 270.51 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 266.192 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 267.97 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a238d6f8-e68b-4147-b77a-0d3234fe8d98")
+		)
+		(pin "2"
+			(uuid "a8dfe62d-3ee1-4e25-a410-3f620cb17285")
+		)
+		(instances
+			(project "lemo-rj45-lvds-adaptor"
+				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
+					(reference "R12")
 					(unit 1)
 				)
 			)
