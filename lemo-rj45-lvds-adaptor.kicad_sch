@@ -1861,316 +1861,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface:SN65LVDS2D"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -8.89 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SN65LVDS2D"
-				(at 1.27 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn65lvds2.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "High-Speed Differential Line Receiver, 630Mbps, SOIC-8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LVDS Receiver TI"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*SOIC*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SN65LVDS2D_1_0"
-				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.175 -1.651)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "R"
-					(at 0 -0.127 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-						)
-					)
-				)
-			)
-			(symbol "SN65LVDS2D_1_1"
-				(polyline
-					(pts
-						(xy -5.715 1.397) (xy -2.667 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 -1.651) (xy -3.81 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.937) (xy -2.54 3.683) (xy 5.08 -0.127) (xy -2.54 -3.937)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -0.127) (xy 5.08 -0.127)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -10.16 90)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -10.16 90)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -10.16 90)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "V_{CC}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -2986,18 +2676,6 @@
 		(uuid "bd37f385-c4f9-472e-898a-d291ffb0ee41")
 	)
 	(junction
-		(at 175.26 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1e6e6a4-8eaf-41e1-81d8-fe7282d08098")
-	)
-	(junction
-		(at 175.26 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5d76cf3-af49-4c97-9bcc-1cfcb0961ee6")
-	)
-	(junction
 		(at 172.72 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3016,20 +2694,16 @@
 		(uuid "20f6968d-94d2-416b-9300-7e4cede9d15c")
 	)
 	(no_connect
+		(at 74.93 120.65)
+		(uuid "31af93fc-5aeb-48f3-be35-134ffd6741e4")
+	)
+	(no_connect
 		(at 111.76 124.46)
 		(uuid "43bc0d3c-e761-44c7-b0c4-06b188fe0cef")
 	)
 	(no_connect
-		(at 201.93 92.71)
-		(uuid "4fc7d3f2-6066-4087-9163-24c538373e33")
-	)
-	(no_connect
-		(at 199.39 92.71)
-		(uuid "68caf7d9-d70a-42ee-b1f8-a71841e9659b")
-	)
-	(no_connect
-		(at 196.85 92.71)
-		(uuid "69133bb3-2345-4b52-8c2d-ac15b65e3138")
+		(at 74.93 128.27)
+		(uuid "4ee8f0bf-f312-4658-929b-171f54777db8")
 	)
 	(no_connect
 		(at 237.49 50.8)
@@ -3081,26 +2755,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 77.47) (xy 175.26 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "055e4ae9-798d-4210-8874-f8c5aa478b82")
-	)
-	(wire
-		(pts
-			(xy 194.31 71.12) (xy 194.31 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "085b6c68-1e97-4bdc-855c-ad473a3dc4e3")
-	)
-	(wire
-		(pts
 			(xy 67.31 165.1) (xy 64.77 165.1)
 		)
 		(stroke
@@ -3111,16 +2765,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 82.55) (xy 234.95 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a4f0461-e3ee-4f3e-8f0e-07d9bc6c2b8b")
-	)
-	(wire
-		(pts
 			(xy 36.83 71.12) (xy 44.45 71.12)
 		)
 		(stroke
@@ -3128,16 +2772,6 @@
 			(type default)
 		)
 		(uuid "132ec7ca-bc44-4d63-a5ae-ea804dea0221")
-	)
-	(wire
-		(pts
-			(xy 181.61 77.47) (xy 181.61 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2707c15c-d45f-418e-8625-b3af6396da56")
 	)
 	(wire
 		(pts
@@ -3201,13 +2835,23 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 129.54) (xy 72.39 129.54)
+			(xy 60.96 129.54) (xy 74.93 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "363b3689-a3d9-418a-8395-ea30883d7141")
+	)
+	(wire
+		(pts
+			(xy 74.93 128.27) (xy 74.93 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3948c444-5980-4f2b-b758-6bf98c7b63cc")
 	)
 	(wire
 		(pts
@@ -3251,16 +2895,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 85.09) (xy 175.26 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56f26d8f-43e4-4504-8c86-23032901e7a6")
-	)
-	(wire
-		(pts
 			(xy 149.86 140.97) (xy 149.86 146.05)
 		)
 		(stroke
@@ -3301,6 +2935,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 82.55) (xy 199.39 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8dd102-73b1-4ae6-b749-aac6d4bbee01")
+	)
+	(wire
+		(pts
 			(xy 60.96 127) (xy 72.39 127)
 		)
 		(stroke
@@ -3331,13 +2975,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 92.71) (xy 194.31 95.25)
+			(xy 173.99 82.55) (xy 182.88 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f88b764-3420-487d-903f-2511f5bb74e6")
+		(uuid "6fb7f32c-c596-47f9-9535-9d7d946e94af")
 	)
 	(wire
 		(pts
@@ -3371,7 +3015,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 121.92) (xy 72.39 121.92)
+			(xy 60.96 121.92) (xy 74.93 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3461,16 +3105,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 77.47) (xy 175.26 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85a2c1ab-0a21-4552-8b36-61b45646a6dc")
-	)
-	(wire
-		(pts
 			(xy 161.29 146.05) (xy 161.29 151.13)
 		)
 		(stroke
@@ -3478,16 +3112,6 @@
 			(type default)
 		)
 		(uuid "87a634a9-c23c-4eaa-86a3-493c29fb5e17")
-	)
-	(wire
-		(pts
-			(xy 101.6 165.1) (xy 99.06 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "898b5a26-118f-49be-834d-193db929b0c3")
 	)
 	(wire
 		(pts
@@ -3528,16 +3152,6 @@
 			(type default)
 		)
 		(uuid "9195208f-2646-4910-bfcd-3e98c3b291f6")
-	)
-	(wire
-		(pts
-			(xy 105.41 177.8) (xy 101.6 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97d6db42-4640-4830-88e7-348578c64b8f")
 	)
 	(wire
 		(pts
@@ -3588,16 +3202,6 @@
 			(type default)
 		)
 		(uuid "9e2626fd-757c-47b9-96f2-83f1a4ba885c")
-	)
-	(wire
-		(pts
-			(xy 105.41 184.15) (xy 105.41 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a28e4de2-8eae-4248-a4cc-866ab7cf3524")
 	)
 	(wire
 		(pts
@@ -3701,16 +3305,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 82.55) (xy 218.44 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb220e15-013f-4bdd-b83c-368e4ebd1798")
-	)
-	(wire
-		(pts
 			(xy 66.04 71.12) (xy 66.04 83.82)
 		)
 		(stroke
@@ -3761,23 +3355,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 170.18) (xy 101.6 165.1)
+			(xy 74.93 120.65) (xy 74.93 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c97e1a57-735e-4652-9f20-a8c2399f7d11")
-	)
-	(wire
-		(pts
-			(xy 175.26 85.09) (xy 181.61 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc19d4ca-7b3b-4cfc-8118-03407d8b6e3a")
+		(uuid "cbbe5d6f-96b1-46f4-a4f6-2eeee2b91c21")
 	)
 	(wire
 		(pts
@@ -3979,26 +3563,6 @@
 		)
 		(uuid "1d76cde7-6dc8-4dec-a79f-f075d6fae5a9")
 	)
-	(label "BSY_P"
-		(at 163.83 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2db90f94-706d-4e2e-b278-0985bbffa2b0")
-	)
-	(label "BSY_N"
-		(at 163.83 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3082f9df-387a-4536-90ec-f6a3ea9c580e")
-	)
 	(label "TRG_P"
 		(at 72.39 116.84 0)
 		(effects
@@ -4009,15 +3573,15 @@
 		)
 		(uuid "362b76bf-cf46-47ce-a032-d14028f80053")
 	)
-	(label "BSY_P"
-		(at 72.39 121.92 0)
+	(label "RST_N"
+		(at 199.39 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3fcb2b48-af3d-4f60-95cd-7a7d98364d02")
+		(uuid "3df6ec93-6efd-4d5c-a81f-52ef0da525dd")
 	)
 	(label "CLK_N"
 		(at 72.39 134.62 0)
@@ -4028,16 +3592,6 @@
 			(justify left bottom)
 		)
 		(uuid "48e9a53b-a5d7-44c1-a578-92a15254c85f")
-	)
-	(label "BSY_N"
-		(at 72.39 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7536c3ad-e97f-4ac2-b87a-cd8d06c11b3b")
 	)
 	(label "CLK_N"
 		(at 124.46 43.18 0)
@@ -4058,6 +3612,16 @@
 			(justify left bottom)
 		)
 		(uuid "94b1ac83-44bc-47a2-ace3-0475ee9f998a")
+	)
+	(label "RST_N_J"
+		(at 173.99 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a17cf03c-9ba9-43ed-be12-4334f6b28dbd")
 	)
 	(label "RST_P"
 		(at 254 38.1 0)
@@ -4089,7 +3653,7 @@
 		)
 		(uuid "da0de5be-3d77-4809-ba86-6eeceb757769")
 	)
-	(label "RST_N"
+	(label "RST_N_J"
 		(at 254 43.18 0)
 		(effects
 			(font
@@ -4598,88 +4162,6 @@
 			(project "lemo-rj45-lvds-adaptor"
 				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 101.6 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2644d244-4b56-4d17-91f5-952176495ab2")
-		(property "Reference" "C4"
-			(at 105.41 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 105.41 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 102.5652 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 101.6 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "075eb106-570b-4f6e-affb-ab87a145b2f9")
-		)
-		(pin "2"
-			(uuid "b1f7c40b-3e69-4705-a6e0-5f01f1d33d8e")
-		)
-		(instances
-			(project "lemo-rj45-lvds-adaptor"
-				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6059,84 +5541,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 240.03 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e63a2c2-edf6-4551-a843-f80af4aee648")
-		(property "Reference" "#PWR029"
-			(at 240.03 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 240.03 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f52a5080-a1ea-49ff-bb2f-21de03cddce5")
-		)
-		(instances
-			(project "lemo-rj45-lvds-adaptor"
-				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 57.15 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -6208,87 +5612,6 @@
 			(project "lemo-rj45-lvds-adaptor"
 				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 240.03 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "621db33c-9b9f-4529-ae88-d2cf8d97980f")
-		(property "Reference" "J4"
-			(at 243.84 81.5731 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 243.84 84.1131 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "momiji_lemo:LEMO_EPK.00.250.NTN_Elbow"
-			(at 240.03 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 240.03 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "73f0ac4d-340d-468e-871c-5376b708bf68")
-		)
-		(pin "1"
-			(uuid "098f4a6e-ccac-4a54-b6c7-261a173d5b99")
-		)
-		(instances
-			(project "lemo-rj45-lvds-adaptor"
-				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6528,84 +5851,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 105.41 184.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73d9329b-a53f-49d2-aec7-55a51d323804")
-		(property "Reference" "#PWR012"
-			(at 105.41 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 189.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aa0f9444-ea9a-4c74-bd60-d7ced5921cd0")
-		)
-		(instances
-			(project "lemo-rj45-lvds-adaptor"
-				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 120.65 119.38 270)
 		(mirror x)
@@ -6684,83 +5929,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 194.31 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "741b8c38-5120-41ee-8dcd-c373202fcb47")
-		(property "Reference" "#PWR04"
-			(at 194.31 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 194.31 67.056 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 194.31 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c6eff1b3-7edb-4f88-903c-9382879ceb5f")
-		)
-		(instances
-			(project "lemo-rj45-lvds-adaptor"
-				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 57.15 83.82 0)
 		(mirror y)
@@ -6794,7 +5962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "momiji_lemo:LEMO_EPK.00.250.NTN_Elbow"
+		(property "Footprint" "momiji_qla:HS_85_QLA-01-0-2_ML97_RightAngle"
 			(at 57.15 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6837,6 +6005,86 @@
 			(project "lemo-rj45-lvds-adaptor"
 				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 186.69 82.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b1df273-defc-4424-a6d3-cd493f1276a6")
+		(property "Reference" "R7"
+			(at 186.69 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 186.69 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 186.69 84.328 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 186.69 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80f009e5-249d-44b6-9712-096cd74eef78")
+		)
+		(pin "2"
+			(uuid "f19ce37f-bfe3-4e50-8c8a-2b8d2fe0e3e9")
+		)
+		(instances
+			(project "lemo-rj45-lvds-adaptor"
+				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7331,87 +6579,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 175.26 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "88c41d88-ea1c-45cd-9c52-4d5390367259")
-		(property "Reference" "R7"
-			(at 177.8 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 177.8 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 173.482 81.28 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 175.26 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2c9c9b52-749a-46b9-9870-f87afef3277a")
-		)
-		(pin "1"
-			(uuid "d9e5fc41-e15f-4319-a5c1-11a0227ff1aa")
-		)
-		(instances
-			(project "lemo-rj45-lvds-adaptor"
-				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 208.28 48.26 0)
 		(unit 1)
@@ -7642,86 +6809,6 @@
 			(project "lemo-rj45-lvds-adaptor"
 				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 222.25 82.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "910f4562-2c1c-447c-ba85-612932a6d533")
-		(property "Reference" "R8"
-			(at 222.25 76.2 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "51"
-			(at 222.25 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 222.25 84.328 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 222.25 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dc762b3f-21d8-4f41-91bd-aa2f1ddb2f3d")
-		)
-		(pin "2"
-			(uuid "f3a832f3-bb5e-4418-bfdb-c55d8680f2f1")
-		)
-		(instances
-			(project "lemo-rj45-lvds-adaptor"
-				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8017,7 +7104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "momiji_lemo:LEMO_EPK.00.250.NTN_Elbow"
+		(property "Footprint" "momiji_qla:HS_85_QLA-01-0-2_ML97_RightAngle"
 			(at 186.69 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8224,103 +7311,6 @@
 			(project "lemo-rj45-lvds-adaptor"
 				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface:SN65LVDS2D")
-		(at 194.31 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a7467d29-9cd0-4117-b79e-d9c39ecf47c9")
-		(property "Reference" "U3"
-			(at 211.582 90.678 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN65LVDS2D"
-			(at 211.582 93.218 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 194.31 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn65lvds2.pdf"
-			(at 194.31 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "High-Speed Differential Line Receiver, 630Mbps, SOIC-8"
-			(at 194.31 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "a7a7f5b9-5d03-4b45-91fe-f2255f805059")
-		)
-		(pin "3"
-			(uuid "49dd25b3-ca2c-41c3-893e-9bb5b5c0a43f")
-		)
-		(pin "4"
-			(uuid "173af884-00ab-458d-a5c7-f219e0b3249a")
-		)
-		(pin "8"
-			(uuid "b4d9f8d3-fa27-4aba-97ad-1c6c0190d27b")
-		)
-		(pin "1"
-			(uuid "4f564a2c-ce78-41d1-83ff-0f7cbc8a528a")
-		)
-		(pin "2"
-			(uuid "9eeec022-a577-48fa-a926-cf6fa8235a88")
-		)
-		(pin "6"
-			(uuid "418e6810-4c17-4f47-8d87-17c60cb8cd17")
-		)
-		(pin "7"
-			(uuid "607441bb-b787-46d4-a3e2-a8244ac57596")
-		)
-		(instances
-			(project "lemo-rj45-lvds-adaptor"
-				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8598,7 +7588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "momiji_lemo:LEMO_EPK.00.250.NTN_Elbow"
+		(property "Footprint" "momiji_qla:HS_85_QLA-01-0-2_ML97_RightAngle"
 			(at 57.15 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9136,162 +8126,6 @@
 			(project "lemo-rj45-lvds-adaptor"
 				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 194.31 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9366708-9081-4343-8eed-c17ab361c0d7")
-		(property "Reference" "#PWR08"
-			(at 194.31 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "08dc69f1-70aa-46ef-8e07-a72f321ae91a")
-		)
-		(instances
-			(project "lemo-rj45-lvds-adaptor"
-				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 99.06 165.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db394193-265e-4140-af8d-9a1f7df24775")
-		(property "Reference" "#PWR016"
-			(at 99.06 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 99.06 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 99.06 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a7034a8e-9961-41e4-a74e-18e98a8659b4")
-		)
-		(instances
-			(project "lemo-rj45-lvds-adaptor"
-				(path "/b91f64af-795d-4016-bf80-aafc945cd633"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
