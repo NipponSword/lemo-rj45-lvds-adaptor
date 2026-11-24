@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "momiji_lemo") (type "KiCad") (uri "${KIPRJMOD}/momiji_lemo.pretty") (options "") (descr ""))
+)

@@ -6246,7 +6246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "momiji_lemo:LEMO_EPK.00.250.NTN_Elbow"
+		(property "Footprint" "momiji_qla:HS_85_QLA-01-0-2_ML97_RightAngle"
 			(at 240.03 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6794,7 +6794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "momiji_lemo:LEMO_EPK.00.250.NTN_Elbow"
+		(property "Footprint" "momiji_qla:HS_85_QLA-01-0-2_ML97_RightAngle"
 			(at 57.15 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8017,7 +8017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "momiji_lemo:LEMO_EPK.00.250.NTN_Elbow"
+		(property "Footprint" "momiji_qla:HS_85_QLA-01-0-2_ML97_RightAngle"
 			(at 186.69 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8598,7 +8598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "momiji_lemo:LEMO_EPK.00.250.NTN_Elbow"
+		(property "Footprint" "momiji_qla:HS_85_QLA-01-0-2_ML97_RightAngle"
 			(at 57.15 40.64 0)
 			(hide yes)
 			(show_name no)
